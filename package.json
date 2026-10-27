@@ -1,0 +1,17 @@
+{
+  "name": "uhb-universal-health-bridge",
+  "version": "1.0.0",
+  "private": true,
+  "description": "UHB 通用健康桥：坐在 magpie 之后，只做字节外科手术 + 流量守护，不做协议转换。含体积感知准入、429/502 双熔断、0-token 探活、上行体取证。",
+  "type": "commonjs",
+  "main": "uhb.js",
+  "scripts": {
+    "doctor": "node uhb.js doctor",
+    "start": "node uhb.js run",
+    "status": "node uhb.js status"
+  },
+  "optionalDependencies": {
+    "sharp": "^0.34.0"
+  },
+  "engines": { "node": ">=18" }
+}
